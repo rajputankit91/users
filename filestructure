@@ -1,0 +1,31 @@
+src/
+    components/
+        UserList/
+            UserList.js
+            ListItem.js
+            UserProfilePic.js
+            UserInfo.js
+            css
+        Actions/    
+            LikeButton.js
+            EditInfoButton.js
+        EditUserInfoModal/
+            EditUserInfoModal.js
+            EditUserInfoModal.css
+            EditUserSlice.js//for slice you can check where it should be here or inside store folder
+    common/
+        Button/
+            Button.js
+            Button.css
+        Input/
+            Input.js
+            Input.css
+        Label/
+            Label.js
+            Label.css
+        //rest of the common components
+app.js
+store/
+    store.js
+data/
+    user.json/whatever it is

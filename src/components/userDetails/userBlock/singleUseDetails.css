@@ -1,0 +1,85 @@
+.user-block{
+  border: 1px solid var(--border-color);
+  border-radius: 2px;
+  width: 284px;
+}
+.user-block .user-img{
+  background-color: var(--img-backgrend-color);
+  margin-bottom: 0px;
+  height: 200px;
+}
+.user-block h3{
+  text-align: start;
+  margin: 0px auto 8px auto;
+  color: rgba(0,0,0,.85);
+  font-weight: 500;
+}
+
+.user-block .user-detail-content{
+  padding: 1.5rem;
+}
+
+.contact-info-item{
+  display: flex;
+  align-items: top;
+  gap: 0.7rem;
+}
+
+.contact-info-item p{
+  margin: 0px;
+  font-size: 14px;
+}
+
+.contact-info-item span{
+  font-size: 18px;
+}
+.user-block-buttons {
+  height: 49px;
+  background-color: var(--button-background-color);
+  border: 1px solid var(--border-color);
+}
+
+.user-block-buttons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.user-block-buttons ul li{
+  height: 20px;
+  margin: 12px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-block-buttons ul li:nth-child(2){
+  border-left: 1.5px solid var(--border-color);
+  border-right: 1.5px solid var(--border-color);
+}
+
+.action-item {
+  width: 33.3333%;
+}
+
+.icon-button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.user-block-buttons .heart-icon {
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+}
+
+.edit-icon ,.delete-icon {
+  font-size: 20px;
+  color: var(--primary-Text-color);
+}
+
+.edit-icon:hover ,.delete-icon:hover{
+ color: #1890ff
+}

@@ -1,0 +1,109 @@
+/* input field css with animation error */
+.label-input-field {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    align-items: center;
+    height: 59px;
+    margin-bottom: 5px;
+  }
+  
+  label {
+    text-align: end;
+    color: var(--primary-text-color);
+    width: 30%;
+    height: 54px;
+    font-size: 14px;
+    padding-top: 3px;
+  }
+  
+  label span {
+    color: var(--error-text-color);
+  }
+  
+  .input-field {
+    width: 70%;
+    height: 54px;
+  }
+  
+  .input-field input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+    outline: 0;
+    color: var(--primary-text-color);
+    background-color: var(--modal-content-background);
+  }
+  
+  input:focus {
+    border-color: var(--primary-input-border-color);
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  }
+  input:hover{
+    border-color: var(--primary-input-border-color);
+  }
+  
+  .error {
+    color: var(--error-text-color);
+    padding-top: 1px;
+    margin: 0px;
+    font-size: 12px;
+    text-align: start;
+    animation: errorShow 0.3s ease-in-out;
+  }
+  
+  /* Animation for the error showing */
+  
+  @keyframes errorShow {
+    0% {
+      transform: translateY(-100%);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .input-field .input-error {
+    box-shadow: none;
+    border-color: var(--error-text-color);
+  }
+  
+  .input-field .input-error:focus {
+    box-shadow: 0 0 0 2px rgba(245, 34, 45, 0.2);
+  }
+
+
+
+/* Responsive Styles */
+@media screen and (max-width: 576px) {
+    .label-input-field {
+      flex-direction: column;
+    }
+    .user-data-form {
+      padding: 0px 2rem;
+    }
+  
+    .label-input-field {
+      height: 80px;
+      gap: 2px;
+      align-items: flex-start;
+    }
+  
+    .label-input-field .input-field {
+      width: 100%;
+    }
+  
+    .label-input-field label {
+      height: 25px;
+      text-align: start;
+    }
+  
+    .form-footer {
+      margin-top: 5px;
+    }
+  }

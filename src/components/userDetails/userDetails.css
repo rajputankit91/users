@@ -1,0 +1,28 @@
+.user-details{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  color: var(--primary-Text-color);
+}
+@media screen and (max-width: 768px) {
+  .user-details {
+    display: block;
+    box-sizing: border-box;
+  }
+  .user-block{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width:768px) {
+  .user-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+  .user-block{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}

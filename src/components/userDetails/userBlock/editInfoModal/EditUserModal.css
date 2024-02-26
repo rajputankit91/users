@@ -1,0 +1,161 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 8px;
+  width: 520px;
+  text-align: center;
+  font-size: 16px;
+  color: var(--primary-Text-color);
+}
+
+.form-header {
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.form-header h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.form-header span {
+  color: var(--primary-Text-color);
+  font-size: 1.2em;
+}
+.form-header span:hover{
+  color: black;
+  cursor: pointer;
+
+}
+
+.user-data-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.label-input-field {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  align-items: center;
+  height: 59px;
+  margin-bottom: 5px;
+}
+
+label {
+ text-align: end;
+  color: #333;
+  width: 30%;
+  height: 54px;
+  font-size: 14px;
+  padding-top: 3px;
+
+}
+
+label span {
+  color: red;
+}
+.input-field{
+  width: 70%;
+  height: 54px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  
+  outline: 0;
+  color: var(--primary-Text-color);
+}
+
+input:focus {
+  border-color: rgba(24, 144, 255, 0.5);
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.error {
+  color: red;
+  padding-top: 1px;
+  margin: 0px;
+  font-size: 12px;
+  text-align: start;
+
+}
+.input-field .input-error{
+  box-shadow: none;
+  border-color: red;
+
+}
+.input-field .input-error:focus{
+  box-shadow: 0 0 0 2px rgba(245,34,45,.2)
+}
+
+
+
+.form-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-top: 1px solid var(--border-color);
+  width: 100%;
+}
+
+.form-footer button {
+  margin-left: 10px;
+}
+
+.submit-button {
+  background: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.close-button  {
+ color: var(--primary-Text-color);
+ background-color: transparent;
+  padding: 8px 16px;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.submit-button:hover{
+  /* background-color: ; */
+}
+
+.close-button:hover {
+  color: #007bff;;
+
+}
+
+.user-img{
+  display: flex;
+  justify-content: center;
+}
+.user-img img{
+  background-color: #d5d2d2;
+}

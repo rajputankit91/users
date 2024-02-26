@@ -1,0 +1,92 @@
+
+
+/* User Data Form */
+.user-data-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* Label Input Field */
+
+
+/* Form Footer */
+.user-data-form .form-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  border-top: 1px solid var(--border-color);
+  width: 100%;
+}
+
+.user-data-form  .form-footer button {
+  margin-left: 10px;
+}
+
+/* Submit  and close Button */
+.user-data-form  .form-footer .submit-button,
+.close-button {
+  padding: 8px 16px;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.user-data-form  .form-footer .submit-button {
+  background: var(--submit-button-background);
+  color: white;
+}
+
+.user-data-form  .form-footer .submit-button:hover {
+  background: var(--submit-button-hover-background);
+}
+
+.user-data-form  .form-footer .close-button {
+  color: var(--close-button-color);
+  background-color: transparent;
+}
+
+.user-data-form  .form-footer .close-button:hover {
+  color: var(--close-button-hover-color);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 576px) {
+  .label-input-field {
+    flex-direction: column;
+  }
+
+  .modal-content {
+    min-height: 500px;
+    width: 90vw;
+  }
+
+  .user-data-form {
+    padding: 0px 2rem;
+  }
+
+  .label-input-field {
+    height: 88px;
+    gap: 2px;
+    align-items: flex-start;
+  }
+
+  .label-input-field .input-field {
+    width: 100%;
+  }
+
+  .label-input-field label {
+    height: 25px;
+    text-align: start;
+  }
+
+  .modal-header {
+    padding-top: 0px;
+  }
+
+  .form-footer {
+    margin-top: 5px;
+  }
+}

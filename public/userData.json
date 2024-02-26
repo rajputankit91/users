@@ -1,0 +1,92 @@
+[
+    {
+      "id": "11",
+      "name": "Leanne Graham",
+      "email": "Sincere@april.biz",
+      "phone": "1-770-736-8031 x56442",
+      "website": "http://hildegard.org",
+      "image": "https://api.dicebear.com/7.x/lorelei/svg?flip=true",
+      "liked": false
+    },
+    {
+      "id": "12",
+      "name": "Ervin Howell",
+      "email": "Shanna@melissa.tv",
+      "phone": "010-692-6593 x09125",
+      "website": "http://anastasia.net",
+      "image": "https://api.dicebear.com/7.x/lorelei/svg?seed=Cuddles",
+      "liked": false
+    },
+    {
+      "id": "13",
+      "name": "Clementine Bauch",
+      "email": "Nathan@yesenia.net",
+      "phone": "1-463-123-4447",
+      "website": "http://ramiro.info",
+      "image": "https://api.dicebear.com/7.x/pixel-art/svg?seed=Callie",
+      "liked": false
+    },
+    {
+      "id": "14",
+      "name": "Patricia Lebsack",
+      "email": "Julianne.OConner@kory.org",
+      "phone": "493-170-9623 x156",
+      "website": "http://kale.biz",
+      "image": "https://api.dicebear.com/7.x/adventurer/svg?seed=Whiskers",
+      "liked": false
+    },
+    {
+      "id": "15",
+      "name": "Chelsey Dietrich",
+      "email": "Lucio_Hettinger@annie.ca",
+      "phone": "(254)954-1289",
+      "website": "http://demarco.info",
+      "image": "https://api.dicebear.com/7.x/adventurer/svg?seed=Molly",
+      "liked": false
+    },
+    {
+    "id": "16",
+      "name": "Mrs. Dennis Schulist",
+      "email": "Karley_Dach@jasper.info",
+      "phone": "1-477-935-8478 x6430",
+      "website": "http://ola.org",
+      "image": "https://api.dicebear.com/7.x/micah/svg?seed=Boots",
+      "liked": false
+    },
+    {
+      "id": "17",
+      "name": "Kurtis Weissnat",
+      "email": "Telly.Hoeger@billy.biz",
+      "phone": "210.067.6132",
+      "website": "http://elvis.io",
+      "image": "https://api.dicebear.com/7.x/big-ears/svg?seed=Bandit",
+      "liked": false
+    },
+    {
+      "id": "18",
+      "name": "Nicholas Runolfsdottir V",
+      "email": "Sherwood@rosamond.me",
+      "phone": "586.493.6943 x140",
+      "website": "http://jacynthe.com",
+      "image": "https://api.dicebear.com/7.x/pixel-art/svg?seed=Whiskers",
+      "liked": false
+    },
+    {
+      "id": "19",
+      "name": "Glenna Reichert",
+      "email": "Chaim_McDermott@dana.io",
+      "phone": "(775)976-6794 x41206",
+      "website": "http://conrad.com",
+      "image": "https://api.dicebear.com/7.x/micah/svg?seed=Lucy",
+      "liked": false
+    },
+    {
+      "id": "20",
+      "name": "Clementina DuBuque",
+      "email": "Rey.Padberg@karina.biz",
+      "phone": "024-648-3804",
+      "website": "V",
+      "image": "https://api.dicebear.com/7.x/adventurer/svg?seed=Cookie",
+      "liked": false
+    }
+  ]

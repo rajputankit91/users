@@ -1,0 +1,60 @@
+/* Styles for the user block buttons container */
+.user-block-buttons {
+  height: 49px;
+  background-color: var(--button-background-color);
+  border: 1px solid var(--border-color);
+  }
+  
+ /* Styles for the unordered list inside the user block buttons container */ 
+  .user-block-buttons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+ /* Styles for individual list items inside the user block buttons container */ 
+  .user-block-buttons ul li{
+    height: 20px;
+    margin: 12px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+  
+  
+/* Border styling for the second list item */
+  .user-block-buttons ul li:nth-child(2){
+    border-left: 1.5px solid var(--border-color);
+    border-right: 1.5px solid var(--border-color);
+  }
+  
+  .action-item {
+    width: 33.3333%;
+  }
+  
+  .icon-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Styles for the heart icon */
+  .user-block-buttons .heart-icon {
+    color: var(--heart-color);
+    font-size: 20px;
+  }
+  
+  .edit-icon ,.delete-icon {
+    font-size: 20px;
+    color: #968989;
+  
+  }
+  
+  .edit-icon:hover ,.delete-icon:hover{
+    color: var(--close-button-hover-color)
+  }
+  
